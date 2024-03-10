@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ULstyle.css">
+    <title>Student Login</title>
+    <style>
+        body {
+            background-image: url('C:/Users/priya/Downloads/Quiz_FrontEnd/Quiz_FrontEnd/back1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black; /* Set text color to black */
+        }
+        .square {
+            background-color: rgba(255, 255, 255, 0.9); /* Background color with opacity */
+            padding: 20px; /* Add padding to the square */
+        }
+        /* Additional styling for inputs and button */
+        .inputBx {
+            margin-bottom: 10px;
+        }
+        .inputBx input::placeholder {
+            color: blue !important; /* Change placeholder text color */
+        }
+        /* Styling for Sign in and Sign up links */
+        .links a {
+            color: black; /* Set text color to black */
+        }
+        /* Styling for Sign in button */
+        .inputBx input[type="submit"] {
+            color: black;
+            background-color: transparent;
+            border: 1px solid black;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="square">
+        <i style="--clr:#00ff0a;"></i>
+        <i style="--clr:#ff0057;"></i>
+        <i style="--clr:#fffd44;"></i>
+        <div class="login">
+            <h2 style="color:black;">Login</h2>
+            <div class="inputBx">
+                <a href="AdminLogin.html"><input type="text" placeholder="Admin"></a>
+            </div>
+            <div class="inputBx">
+                <a href="user_login.html"><input type="password" placeholder="User"></a>
+            </div>
+            <div class="inputBx">
+                <input type="submit" value="Sign in">
+            </div>
+            <div class="links">
+                <a href="UserRegister.html" style="color: black;">Signup</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
